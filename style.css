@@ -1,0 +1,99 @@
+*{
+    margin:0;
+}
+.container{
+    background-image: url('./images/Profile.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color:rgb(246, 244, 244);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    
+    
+}
+.inner-content{
+    text-align:right;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    
+}
+#name{
+    font-size: 100px;
+    font-family:"Sacramento";
+}
+.sec-section{
+    
+    background-color: rgb(244, 231, 216);
+}
+.id{
+    
+    border:2px solid aliceblue;
+    margin-top:50px;
+    margin-left: 650px;
+    height:170px;
+    border-radius: 50%;
+}
+.sec-container{
+    
+    text-align: center;
+    height:250px;
+}
+#intro{
+    padding-top: 30px ;
+    text-align: center;
+    font-size: 50px;
+}
+.intro-content{
+    margin-left:350px;
+    width:600px;
+    padding:20px 100px;
+    text-align: center;
+    font-size: 20px;
+}
+.scroll{
+    padding-top: 20px;
+}
+.thir-section{
+    background-color: rgb(249, 249, 246);
+}
+.card{
+    width:18em;
+    padding:50px;
+    
+}
+.thir-container{
+    display:flex;
+    padding: 40px 100px;
+    margin-left: 70px;
+
+}
+.card-img-top {
+    width:100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border:1px solid rgb(244, 204, 145);
+}
+.card-body{
+    padding: 20px;
+    border:1px solid rgb(244, 204, 145);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.card-title{
+    font-size: 25px;
+}
+.card-text{
+    padding:10px;
+}
+.footer{
+    background-color: rgb(139, 130, 119);
+    height:60px;
+    text-align: center;
+    padding:20px;
+    line-height:40px;
+    font-size: 20px;
+}
